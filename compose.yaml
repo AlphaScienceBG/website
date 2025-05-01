@@ -1,0 +1,10 @@
+name: alphascience_website
+
+services:
+  hugo_website:
+    image: klakegg/hugo:latest
+    command: server
+    volumes:
+      - ".:/src"
+    ports:
+      - "1313:1313"
