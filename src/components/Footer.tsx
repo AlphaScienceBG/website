@@ -6,9 +6,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
-            <div className="text-2xl font-bold mb-4">The<span className="text-datateal-400">QuantLabs</span></div>
+            <div className="text-2xl font-bold mb-4">
+              The<span className="text-datateal-400">QuantLabs</span>
+            </div>
             <p className="text-gray-400 mb-4">
-                Specialized quantitative analysis and data science solutions driving superior performance and operational efficiency across industries.
+              Specialized quantitative analysis and data science solutions
+              driving superior performance and operational efficiency across
+              industries.
             </p>
             <div className="flex space-x-4">
               <a href="#" className="text-gray-400 hover:text-white">
@@ -127,7 +131,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
           <p className="text-sm text-gray-400">
-            © {currentYear} DataNexus. All rights reserved.
+            © {currentYear} TheQuantLabs. All rights reserved.
           </p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-sm text-gray-400 hover:text-white">

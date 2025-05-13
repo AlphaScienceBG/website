@@ -1,12 +1,13 @@
 const technologiesData = [
   { name: "Python", percentage: 95 },
+  { name: "Java", percentage: 85 },
   { name: "R", percentage: 85 },
-  { name: "SQL", percentage: 90 },
-  { name: "Hadoop", percentage: 80 },
-  { name: "Spark", percentage: 88 },
-  { name: "TensorFlow", percentage: 92 },
-  { name: "AWS", percentage: 89 },
-  { name: "Azure", percentage: 86 },
+  { name: "SQL & NoSQL", percentage: 90 },
+  { name: "Machine Learning", percentage: 90 },
+  { name: "ETL infrastructure", percentage: 90 },
+  { name: "Cloud platforms", percentage: 80 },
+  { name: "Time Series Analysis", percentage: 95 },
+  { name: "Algorithmic Trading", percentage: 95 },
 ];
 
 const Expertise = () => {
@@ -21,8 +22,9 @@ const Expertise = () => {
             Our Technical Expertise
           </h2>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            With a team of advanced-degree data scientists and engineers, we
-            leverage cutting-edge technologies and methodologies.
+            With a team of quantitative analysts, data scientists, and
+            engineers, we leverage cutting-edge technologies to deliver
+            exceptional results.
           </p>
         </div>
 
@@ -64,11 +66,11 @@ const Expertise = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold mb-2">
-                    Discovery & Analysis
+                    Problem Analysis
                   </h4>
                   <p className="text-gray-300">
-                    We begin by deeply understanding your business challenges
-                    and data landscape to define clear objectives.
+                    We begin by deeply understanding your business challenges,
+                    data landscape, and performance objectives.
                   </p>
                 </div>
               </div>
@@ -79,11 +81,11 @@ const Expertise = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold mb-2">
-                    Model Development
+                    Data Engineering
                   </h4>
                   <p className="text-gray-300">
-                    Our team builds customized algorithms and models
-                    specifically designed to address your unique challenges.
+                    Our team builds robust data pipelines to collect, clean, and
+                    process the necessary data for your specific use case.
                   </p>
                 </div>
               </div>
@@ -94,11 +96,11 @@ const Expertise = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold mb-2">
-                    Implementation & Integration
+                    Model Development
                   </h4>
                   <p className="text-gray-300">
-                    We seamlessly implement solutions within your existing
-                    infrastructure, ensuring minimal disruption.
+                    We develop and test sophisticated quantitative models and
+                    algorithms tailored to your specific requirements.
                   </p>
                 </div>
               </div>
@@ -109,11 +111,11 @@ const Expertise = () => {
                 </div>
                 <div>
                   <h4 className="text-xl font-semibold mb-2">
-                    Continuous Optimization
+                    Implementation & Deployment
                   </h4>
                   <p className="text-gray-300">
-                    Our ongoing monitoring and refinement processes ensure that
-                    solutions evolve with your business needs.
+                    Our solutions are seamlessly integrated into your existing
+                    infrastructure with comprehensive documentation and support.
                   </p>
                 </div>
               </div>

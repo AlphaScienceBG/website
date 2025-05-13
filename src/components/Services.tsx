@@ -18,32 +18,38 @@ const ServicesData = [
   {
     icon: <Database className="h-10 w-10 text-datablue-600" />,
     title: "Quantitative Modeling Systems",
-    description: "End-to-end platforms with automated data ingestion, predictive modeling, signal generation, and intelligent decision-making frameworks.",
+    description:
+      "End-to-end platforms with automated data ingestion, predictive modeling, signal generation, and intelligent decision-making frameworks.",
   },
   {
     icon: <ChartBar className="h-10 w-10 text-datateal-600" />,
     title: "Data Engineering",
-    description: "Robust ETL pipelines and infrastructure for collecting, processing, and storing massive datasets from multiple sources efficiently.",
+    description:
+      "Robust ETL pipelines and infrastructure for collecting, processing, and storing massive datasets from multiple sources efficiently.",
   },
   {
     icon: <ChartLine className="h-10 w-10 text-datagold-600" />,
     title: "Simulation & Backtesting",
-    description: "Advanced simulation platforms accounting for real-world constraints, edge cases, and variables with precision and accuracy.",
+    description:
+      "Advanced simulation platforms accounting for real-world constraints, edge cases, and variables with precision and accuracy.",
   },
   {
     icon: <ChartPie className="h-10 w-10 text-datablue-600" />,
     title: "Machine Learning & Predictive Analytics",
-    description: "Sophisticated machine learning models to forecast trends, predict outcomes, and generate actionable insights from complex datasets.",
+    description:
+      "Sophisticated machine learning models to forecast trends, predict outcomes, and generate actionable insights from complex datasets.",
   },
   {
     icon: <Target className="h-10 w-10 text-datateal-600" />,
     title: "Decision Intelligence Tools",
-    description: "Custom applications for tracking, risk assessment, and real-time visualization of data and key performance indicators.",
+    description:
+      "Custom applications for tracking, risk assessment, and real-time visualization of data and key performance indicators.",
   },
   {
     icon: <ShieldCheck className="h-10 w-10 text-datagold-600" />,
     title: "Synthetic Data Generation",
-    description: "Privacy-preserving synthetic data generation tools for model training and research without compromising sensitive information.",
+    description:
+      "Privacy-preserving synthetic data generation tools for model training and research without compromising sensitive information.",
   },
 ];
 

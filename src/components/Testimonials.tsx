@@ -3,46 +3,78 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 
 const testimonialsData = [
   {
-    id: "finance",
-    title: "Finance Case Studies",
+    id: "technology",
+    title: "Technology Case Studies",
     testimonials: [
       {
-        client: "Global Investment Bank",
-        logo: "GB",
+        client: "Data Analytics Platform",
+        logo: "QT",
         quote:
-          "DataNexus provided us with an algorithmic trading platform that increased our trade execution efficiency by 34% and reduced latency to under 10ms.",
-        author: "Sarah Chen",
-        position: "Chief Technology Officer",
+          "The quantitative platform developed by The Quant Labs automated our data collection, feature engineering, model training, and decision making, enabling rapid deployment of new analytics strategies and improved performance.",
+        author: "Chief Technology Officer",
+        position: "Enterprise Analytics Firm",
       },
       {
-        client: "Hedge Fund Group",
-        logo: "HF",
+        client: "Data Science Team",
+        logo: "BT",
         quote:
-          "The risk assessment models developed by DataNexus identified exposure patterns we'd missed for years, potentially saving us millions in unexpected losses.",
-        author: "Mark Reynolds",
-        position: "Head of Risk Management",
+          "Their ETL pipelines and analytics platform unified our data from multiple sources and significantly accelerated our research cycles for strategy development.",
+        author: "Head of Data Science",
+        position: "Technology Firm",
+      },
+      {
+        client: "Information Management Company",
+        logo: "PM",
+        quote:
+          "The predictive modeling and ETL pipelines enhanced our performance and streamlined research workflows, giving us a significant edge in the market.",
+        author: "Analytics Director",
+        position: "Information Services",
+      },
+      {
+        client: "Technology Company",
+        logo: "AT",
+        quote:
+          "The automated algorithms and system integrations engineered by The Quant Labs increased our processing throughput and system reliability substantially.",
+        author: "CTO",
+        position: "Software Company",
       },
     ],
   },
   {
-    id: "energy",
-    title: "Energy Case Studies",
+    id: "industry",
+    title: "Industry Case Studies",
     testimonials: [
       {
-        client: "Renewable Energy Corporation",
-        logo: "RE",
+        client: "Resource Management",
+        logo: "EM",
         quote:
-          "Their predictive maintenance solution reduced our wind farm downtime by 47% and increased annual energy production by 8.3%, significantly boosting our ROI.",
-        author: "Elena Rodriguez",
-        position: "Operations Director",
+          "The Python-based ETL system and Laravel web application provided real-time data visualization, tracking, and management tools that improved our decision-making and operational efficiency.",
+        author: "Head of Operations",
+        position: "Resource Management Company",
       },
       {
-        client: "Global Oil & Gas",
-        logo: "OG",
+        client: "Health-Tech Startup",
+        logo: "HD",
         quote:
-          "DataNexus helped us transform our supply chain forecasting with a 92% accuracy rate, optimizing our inventory levels and reducing carrying costs by $14.2M annually.",
-        author: "James Wilson",
-        position: "VP of Supply Chain",
+          "Their health metrics analytics and privacy-preserving synthetic data generation tools enabled accurate health score modeling and improved user engagement through data-driven recommendations.",
+        author: "Product Director",
+        position: "Health Analytics Platform",
+      },
+      {
+        client: "Data Science Team",
+        logo: "ML",
+        quote:
+          "The end-to-end data engineering and ML pipelines designed by The Quant Labs automated our analytics workflows and accelerated data-driven decision-making across the organization.",
+        author: "Data Science Lead",
+        position: "Technology Company",
+      },
+      {
+        client: "Manufacturing Company",
+        logo: "SE",
+        quote:
+          "The advanced numerical models and automation scripts for data processing improved our modeling accuracy and reduced simulation turnaround times for component optimization.",
+        author: "R&D Director",
+        position: "Manufacturing Company",
       },
     ],
   },
@@ -54,22 +86,22 @@ const Testimonials = () => {
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Case Studies
+            Projects & Case Studies
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            See how we've helped leading organizations transform their
-            operations through advanced data science.
+            Explore how we've helped leading organizations transform their
+            operations through advanced quantitative methods and data science.
           </p>
         </div>
 
-        <Tabs defaultValue="finance" className="max-w-5xl mx-auto">
+        <Tabs defaultValue="technology" className="max-w-5xl mx-auto">
           <div className="flex justify-center mb-8">
             <TabsList>
-              <TabsTrigger value="finance" className="text-lg px-6 py-3">
-                Finance
+              <TabsTrigger value="technology" className="text-lg px-6 py-3">
+                Technology
               </TabsTrigger>
-              <TabsTrigger value="energy" className="text-lg px-6 py-3">
-                Energy
+              <TabsTrigger value="industry" className="text-lg px-6 py-3">
+                Industry
               </TabsTrigger>
             </TabsList>
           </div>

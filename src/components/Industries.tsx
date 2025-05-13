@@ -5,9 +5,12 @@ const Industries = () => {
     <section id="industries" className="py-20 bg-white">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">Solution Areas</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Solution Areas
+          </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            We specialize in delivering quantitative solutions for complex, data-rich domains with high-performance requirements.
+            We specialize in delivering quantitative solutions for complex,
+            data-rich domains with high-performance requirements.
           </p>
         </div>
 
@@ -20,7 +23,9 @@ const Industries = () => {
                bg-cover bg-center"
               ></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <h3 className="text-3xl font-bold text-white">Business Intelligence</h3>
+                <h3 className="text-3xl font-bold text-white">
+                  Business Intelligence
+                </h3>
               </div>
             </div>
             <CardContent className="p-6">
@@ -30,7 +35,9 @@ const Industries = () => {
                     <div className="rounded-full bg-datablue-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">Quantitative Modeling</span>: End-to-end automated systems with data pipelines, model training, and intelligent decision support.
+                    <span className="font-semibold">Quantitative Modeling</span>
+                    : End-to-end automated systems with data pipelines, model
+                    training, and intelligent decision support.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -38,8 +45,9 @@ const Industries = () => {
                     <div className="rounded-full bg-datablue-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">
-                    Data Analytics</span>: Specialized solutions for data aggregation, trend analysis, and automated reporting.
+                    <span className="font-semibold">Data Analytics</span>:
+                    Specialized solutions for data aggregation, trend analysis,
+                    and automated reporting.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -48,8 +56,8 @@ const Industries = () => {
                   </div>
                   <p className="text-gray-700">
                     <span className="font-semibold">Risk Assessment</span>:
-                    Create sophisticated models for credit risk, market risk,
-                    and operational risk.
+                    Advanced models for business risk, operational risk, and
+                    comprehensive reporting.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -57,16 +65,16 @@ const Industries = () => {
                     <div className="rounded-full bg-datablue-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">Wealth Management</span>:
-                    Personalize investment strategies through advanced customer
-                    segmentation.
+                    <span className="font-semibold">Predictive Analysis</span>:
+                    Data-driven forecasting with predictive modeling and
+                    customized research tools.
                   </p>
                 </li>
               </ul>
             </CardContent>
           </Card>
 
-          {/* Energy Industry */}
+          {/* Technical Solutions */}
           <Card className="overflow-hidden border-0 shadow-lg">
             <div className="h-64 bg-gradient-to-r from-datateal-700 to-datateal-900 relative">
               <div
@@ -74,7 +82,9 @@ const Industries = () => {
                bg-cover bg-center"
               ></div>
               <div className="absolute inset-0 flex items-center justify-center">
-                <h3 className="text-3xl font-bold text-white">Energy Sector</h3>
+                <h3 className="text-3xl font-bold text-white">
+                  Technical Solutions
+                </h3>
               </div>
             </div>
             <CardContent className="p-6">
@@ -84,9 +94,9 @@ const Industries = () => {
                     <div className="rounded-full bg-datateal-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">Demand Forecasting</span>:
-                    Predict energy consumption patterns for optimized grid
-                    management.
+                    <span className="font-semibold">Advanced Analytics</span>:
+                    Multi-source analysis, pattern recognition, and real-time
+                    decision making tools.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -94,9 +104,9 @@ const Industries = () => {
                     <div className="rounded-full bg-datateal-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">Asset Performance</span>:
-                    Maximize equipment lifecycle through predictive maintenance
-                    analytics.
+                    <span className="font-semibold">Health Analytics</span>:
+                    Health metrics analysis and privacy-preserving synthetic
+                    data generation for health score modeling.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -104,9 +114,9 @@ const Industries = () => {
                     <div className="rounded-full bg-datateal-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">Trading Optimization</span>:
-                    Analyze market conditions to optimize energy trading
-                    portfolios.
+                    <span className="font-semibold">Data Engineering</span>:
+                    Scalable data pipelines and infrastructure for
+                    domain-specific modeling and analytics.
                   </p>
                 </li>
                 <li className="flex items-start">
@@ -114,11 +124,9 @@ const Industries = () => {
                     <div className="rounded-full bg-datateal-500 w-2 h-2"></div>
                   </div>
                   <p className="text-gray-700">
-                    <span className="font-semibold">
-                      Sustainability Analytics
-                    </span>
-                    : Track and optimize carbon footprint with comprehensive ESG
-                    metrics.
+                    <span className="font-semibold">Simulation & Modeling</span>
+                    : Advanced numerical models and automation scripts for
+                    optimization and analysis.
                   </p>
                 </li>
               </ul>
