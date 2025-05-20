@@ -10,8 +10,9 @@ const Navbar = () => {
 			<div className="container mx-auto px-4 flex justify-between items-center">
 				<div className="flex items-center gap-2">
 					<div className="flex items-center">
-						<div class="bg-datablue-600 p-2 rounded-md mr-2">
+						<div className="bg-datablue-600 p-2 rounded-md mr-2">
 							<svg
+								href="/"
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
 								height="24"
@@ -21,7 +22,7 @@ const Navbar = () => {
 								stroke-width="2"
 								stroke-linecap="round"
 								stroke-linejoin="round"
-								class="lucide lucide-chart-no-axes-column-increasing text-white"
+								className="lucide lucide-chart-no-axes-column-increasing text-white"
 								data-lov-id="src/components/Navbar.tsx:15:14"
 								data-lov-name="BarChart"
 								data-component-path="src/components/Navbar.tsx"
@@ -67,10 +68,16 @@ const Navbar = () => {
 						Expertise
 					</a>
 					<a
-						href="#testimonials"
+						href="#casestudies"
 						className="text-gray-700 hover:text-datablue-600 transition-colors font-medium"
 					>
 						Case Studies
+					</a>
+					<a
+						href="#aboutus"
+						className="text-gray-700 hover:text-datablue-600 transition-colors font-medium"
+					>
+						About Us
 					</a>
 					<Button className="bg-datablue-600 hover:bg-datablue-700">
 						<a href="#contact">Contact Us</a>
@@ -116,11 +123,18 @@ const Navbar = () => {
 							Expertise
 						</a>
 						<a
-							href="#testimonials"
+							href="#casestudies"
 							className="text-gray-700 hover:text-datablue-600 transition-colors py-2"
 							onClick={() => setIsMenuOpen(false)}
 						>
 							Case Studies
+						</a>
+						<a
+							href="#aboutus"
+							className="text-gray-700 hover:text-datablue-600 transition-colors py-2"
+							onClick={() => setIsMenuOpen(false)}
+						>
+							About Us
 						</a>
 						<Button
 							className="bg-datablue-600 hover:bg-datablue-700 mx-auto"
