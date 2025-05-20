@@ -14,34 +14,125 @@ const AboutUs = () => {
               <img src="/public/images/vlado.jpeg" />
             </div>
             <p className="text-gray-700 text-lg">
-              Placeholder paragraph for team member 1. Add a short bio here.
+              <h4 className="mb-4">
+                <b>Financial expert and Data Scientist</b> with experience in:
+              </h4>
+              <ul>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Energy trading and analytics</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">
+                    Quantitative research for equity and crypto markets
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">
+                    Data pipelines, data quality and data governance
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">API integration</p>
+                </li>
+              </ul>
             </p>
           </div>
 
           {/* Hristo H */}
           <div className="bg-white rounded-lg shadow-md p-6 centered">
             <div className="rounded-image">
-              <img src="/public/images/hristoh.jpeg" />
+              <img src="/public/images/hristoh_bg.png" />
             </div>
             <p className="text-gray-700 text-lg">
-              Placeholder paragraph for team member 2. Add a short bio here.
+              <h4 className="mb-4">
+                <b>Computer and Data Scientist</b> with experience in:
+              </h4>
+              <ul>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Energy trading and analytics</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">
+                    Quantitative research for equity and crypto markets
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">
+                    Data pipelines, data quality and data governance
+                  </p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">API integration</p>
+                </li>
+              </ul>
             </p>
           </div>
 
           {/* Team Member 3 */}
           <div className="bg-white rounded-lg shadow-md p-6 centered">
             <div className="rounded-image">
-              <img src="/public/images/hristog.png" />
+              <img src="/public/images/hristog_bg.png" />
             </div>
             <p className="text-gray-700 text-lg">
-              <b>Simulation Engineer</b> and <b>Data Scientist</b> in multiple
-              fields:
-              <ul className="fa-bullets">
-                <li>- Aerospace and Defense</li>
-                <li>- Materials Research</li>
-                <li>- Nuclear Power Plant Safety</li>
-                <li>- Semiconductors</li>
-                <li>- Financial Sector</li>
+              <h4 className="mb-4">
+                <b>Simulation Engineer and Data Scientist</b> with experience
+                in:
+              </h4>
+              <ul>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Aerospace and Defense</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Materials Research</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Nuclear Power Plant Safety</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Semiconductors</p>
+                </li>
+                <li className="flex items-start">
+                  <div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+                    <div className="rounded-full bg-datateal-500 w-2 h-2" />
+                  </div>
+                  <p className="text-gray-700">Financial Sector</p>
+                </li>
               </ul>
             </p>
           </div>

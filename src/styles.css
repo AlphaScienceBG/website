@@ -6,9 +6,14 @@
   border-radius: 50%;
   overflow: hidden;
   object-position: center;
+  margin-bottom: 20px;
 }
 
 .centered {
   display: grid;
   place-items: center;
+}
+
+.p_margin {
+  margin-bottom: 20px;
 }

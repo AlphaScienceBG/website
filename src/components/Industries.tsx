@@ -15,7 +15,7 @@ const Industries = () => {
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
-          {/* Finance Industry */}
+          {/* Business Intelligence */}
           <Card className="overflow-hidden border-0 shadow-lg">
             <div className="h-64 bg-gradient-to-r from-datablue-700 to-datablue-900 relative">
               <div
