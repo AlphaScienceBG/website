@@ -11,7 +11,7 @@ const AboutUs = () => {
           {/* Vlado */}
           <div className="bg-white rounded-lg shadow-md p-6 centered">
             <div className="rounded-image">
-              <img src="/public/images/vlado.jpeg" />
+              <img src="/images/vlado.jpeg" />
             </div>
             <p className="text-gray-700 text-lg">
               <h4 className="mb-4">
@@ -53,7 +53,7 @@ const AboutUs = () => {
           {/* Hristo H */}
           <div className="bg-white rounded-lg shadow-md p-6 centered">
             <div className="rounded-image">
-              <img src="/public/images/hristoh_bg.png" />
+              <img src="/images/hristoh_bg.png" />
             </div>
             <p className="text-gray-700 text-lg">
               <h4 className="mb-4">
@@ -95,7 +95,7 @@ const AboutUs = () => {
           {/* Team Member 3 */}
           <div className="bg-white rounded-lg shadow-md p-6 centered">
             <div className="rounded-image">
-              <img src="/public/images/hristog_bg.png" />
+              <img src="/images/hristog_bg.png" />
             </div>
             <p className="text-gray-700 text-lg">
               <h4 className="mb-4">
