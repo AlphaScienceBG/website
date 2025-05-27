@@ -1,8 +1,11 @@
 import { Button } from "@/components/ui/button";
 
-const Hero = () => {
+const Home = () => {
   return (
-    <section className="relative bg-gradient-to-br from-datablue-900 to-datateal-900 text-white py-20 lg:py-32 overflow-hidden">
+    <section
+      id="home"
+      className="relative bg-gradient-to-br from-datablue-900 to-datateal-900 text-white py-20 lg:py-32 overflow-hidden"
+    >
       {/* Abstract Data Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-10 left-10 w-40 h-40 rounded-full bg-datateal-400" />
@@ -37,7 +40,7 @@ const Hero = () => {
             Advanced Data Science Solutions For Complex Problems
           </h1>
           <p className="text-xl md:text-2xl mb-4 text-gray-200 max-w-2xl mx-auto">
-            Just give us the data we will figure it out
+            Just give us the data and we will figure it out
           </p>
           <p className="text-lg mb-10 text-gray-300 max-w-2xl mx-auto">
             Specialized quantitative analysis and data science solutions driving
@@ -88,4 +91,4 @@ const Hero = () => {
   );
 };
 
-export default Hero;
+export default Home;

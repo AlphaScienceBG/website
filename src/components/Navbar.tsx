@@ -1,6 +1,6 @@
+import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
-import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -12,7 +12,6 @@ const Navbar = () => {
 					<div className="flex items-center">
 						<div className="bg-datablue-600 p-2 rounded-md mr-2">
 							<svg
-								href="/"
 								xmlns="http://www.w3.org/2000/svg"
 								width="24"
 								height="24"
@@ -37,9 +36,11 @@ const Navbar = () => {
 							</svg>
 						</div>
 						<div>
-							<span className="text-2xl font-bold text-datablue-700">
-								The <span className="text-datateal-600">Quant Labs</span>
-							</span>
+							<a href="/">
+								<span className="text-2xl font-bold text-datablue-700">
+									The <span className="text-datateal-600">Quant Labs</span>
+								</span>
+							</a>
 							<p className="text-xs text-gray-600 italic">
 								Just give us the data we will figure it out
 							</p>

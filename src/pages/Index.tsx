@@ -1,7 +1,7 @@
 import Contact from "@/components/Contact";
 import Expertise from "@/components/Expertise";
 import Footer from "@/components/Footer";
-import Hero from "@/components/Hero";
+import Home from "@/components/Home";
 import Industries from "@/components/Industries";
 import Navbar from "@/components/Navbar";
 import Services from "@/components/Services";
@@ -12,7 +12,7 @@ const Index = () => {
     return (
         <div className="min-h-screen">
             <Navbar />
-            <Hero />
+            <Home />
             <Services />
             <Industries />
             <Expertise />
