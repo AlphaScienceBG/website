@@ -28,14 +28,8 @@ const AboutUs = () => {
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Energy trading and analytics</p>
-								</li>
-								<li className="flex items-start">
-									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
-										<div className="rounded-full bg-datateal-500 w-2 h-2" />
-									</div>
 									<p className="text-gray-700">
-										Quantitative research for equity and crypto markets
+										Quantitative Strategy Development and Risk Management
 									</p>
 								</li>
 								<li className="flex items-start">
@@ -43,14 +37,24 @@ const AboutUs = () => {
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
 									<p className="text-gray-700">
-										Data pipelines, data quality and data governance
+										Investment Process and Asset Allocation
 									</p>
 								</li>
 								<li className="flex items-start">
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">API integration</p>
+									<p className="text-gray-700">
+										Alternative Data Scouting and Data Quality
+									</p>
+								</li>
+								<li className="flex items-start">
+									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+										<div className="rounded-full bg-datateal-500 w-2 h-2" />
+									</div>
+									<p className="text-gray-700">
+										Statistical Analysis and Infrastructure Development
+									</p>
 								</li>
 							</ul>
 						</p>
