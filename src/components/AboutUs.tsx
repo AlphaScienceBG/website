@@ -14,14 +14,14 @@ const AboutUs = () => {
 							<div className="rounded-image mx-auto">
 								<img src="/images/vlado.jpeg" alt="Vladimir Vladimirov" />
 							</div>
-							<p className="text-gray-700 text-lg">
+							<div className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Vladimir Vladimirov</h2>
 								<h4 className="mb-4">
 									<b>Financial expert and Data Scientist</b>
 								</h4>
-							</p>
+							</div>
 						</div>
-						<p className="text-gray-700 text-lg">
+						<div className="text-gray-700 text-lg">
 							<h6 className="mb-4">Focus and expertise:</h6>
 							<ul>
 								<li className="flex items-start">
@@ -57,7 +57,7 @@ const AboutUs = () => {
 									</p>
 								</li>
 							</ul>
-						</p>
+						</div>
 					</div>
 
 					{/* Hristo H */}
@@ -66,14 +66,14 @@ const AboutUs = () => {
 							<div className="rounded-image mx-auto">
 								<img src="/images/hristoh_bg.png" alt="Hristo Hristov" />
 							</div>
-							<p className="text-gray-700 text-lg">
+							<div className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Hristo Hristov</h2>
 								<h4 className="mb-4">
 									<b>Software Engineer and Data Analyst</b>
 								</h4>
-							</p>
+							</div>
 						</div>
-						<p className="text-gray-700 text-lg">
+						<div className="text-gray-700 text-lg">
 							<h6 className="mb-4">Focus and expertise:</h6>
 							<ul>
 								<li className="flex items-start">
@@ -105,7 +105,7 @@ const AboutUs = () => {
 									</p>
 								</li>
 							</ul>
-						</p>
+						</div>
 					</div>
 
 					{/* Hristo G */}
@@ -114,14 +114,14 @@ const AboutUs = () => {
 							<div className="rounded-image mx-auto">
 								<img src="/images/hristog_bg.png" alt="Hristo Goumnerov" />
 							</div>
-							<p className="text-gray-700 text-lg">
+							<div className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Hristo Goumnerov</h2>
 								<h4 className="mb-4">
 									<b>Simulation Engineer and Data Engineer</b>
 								</h4>
-							</p>
+							</div>
 						</div>
-						<p className="text-gray-700 text-lg">
+						<div className="text-gray-700 text-lg">
 							<h6 className="mb-4">Focus and expertise:</h6>
 							<ul>
 								<li className="flex items-start">
@@ -155,7 +155,7 @@ const AboutUs = () => {
 									<p className="text-gray-700">Financial Sector</p>
 								</li>
 							</ul>
-						</p>
+						</div>
 					</div>
 				</div>
 			</div>
