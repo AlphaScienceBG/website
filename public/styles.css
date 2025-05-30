@@ -1,19 +1,25 @@
 .rounded-image {
-  display: grid;
-  place-items: center;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  overflow: hidden;
-  object-position: center;
-  margin-bottom: 20px;
+	display: grid;
+	place-items: center;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+	object-position: center;
+	margin-bottom: 20px;
 }
 
 .centered {
-  display: grid;
-  place-items: center;
+	display: grid;
+	place-items: center;
 }
 
 .p_margin {
-  margin-bottom: 20px;
+	margin-bottom: 20px;
+}
+
+.case_study_header {
+	display: flex;
+	height: 100px;
+	align-items: center;
 }
