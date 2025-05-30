@@ -65,7 +65,7 @@ const AboutUs = () => {
 							<p className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Hristo Hristov</h2>
 								<h4 className="mb-4">
-									<b>Computer and Data Scientist</b>
+									<b>Software Engineer and Data Analyst</b>
 								</h4>
 							</p>
 						</div>
@@ -76,14 +76,20 @@ const AboutUs = () => {
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Energy trading and analytics</p>
+									<p className="text-gray-700">Automated trading and backtesting</p>
+								</li>
+								<li className="flex items-start">
+									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
+										<div className="rounded-full bg-datateal-500 w-2 h-2" />
+									</div>
+									<p className="text-gray-700">Crypto and equity market expertise</p>
 								</li>
 								<li className="flex items-start">
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
 									<p className="text-gray-700">
-										Quantitative research for equity and crypto markets
+										Energy analytics and data solutions
 									</p>
 								</li>
 								<li className="flex items-start">
@@ -91,14 +97,8 @@ const AboutUs = () => {
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
 									<p className="text-gray-700">
-										Data pipelines, data quality and data governance
+										Health data research and synthetic data generation
 									</p>
-								</li>
-								<li className="flex items-start">
-									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
-										<div className="rounded-full bg-datateal-500 w-2 h-2" />
-									</div>
-									<p className="text-gray-700">API integration</p>
 								</li>
 							</ul>
 						</p>
@@ -113,7 +113,7 @@ const AboutUs = () => {
 							<p className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Hristo Goumnerov</h2>
 								<h4 className="mb-4">
-									<b>Simulation Engineer and Data Scientist</b>
+									<b>Simulation Engineer and Data Engineer</b>
 								</h4>
 							</p>
 						</div>
