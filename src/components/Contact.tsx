@@ -177,7 +177,9 @@ const Contact = () => {
 
 						<div>
 							<form
-								onSubmit={handleSubmit}
+								name="contact"
+								method="POST"
+								data-netlify="true"
 								className="bg-gray-50 p-6 rounded-lg border border-gray-200 shadow-sm"
 							>
 								<h3 className="text-2xl font-semibold mb-6">
@@ -191,8 +193,7 @@ const Contact = () => {
 											<Input
 												id="name"
 												name="name"
-												value={formData.name}
-												onChange={handleChange}
+												type="text"
 												required
 												placeholder="John Smith"
 											/>
@@ -204,8 +205,6 @@ const Contact = () => {
 												id="email"
 												name="email"
 												type="email"
-												value={formData.email}
-												onChange={handleChange}
 												required
 												placeholder="john@company.com"
 											/>
@@ -218,8 +217,6 @@ const Contact = () => {
 											<Input
 												id="company"
 												name="company"
-												value={formData.company}
-												onChange={handleChange}
 												required
 												placeholder="Your Company"
 											/>
@@ -231,8 +228,6 @@ const Contact = () => {
 										<Textarea
 											id="message"
 											name="message"
-											value={formData.message}
-											onChange={handleChange}
 											required
 											placeholder="Tell us about your data challenges"
 											className="min-h-[120px]"
