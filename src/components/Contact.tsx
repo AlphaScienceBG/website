@@ -1,8 +1,3 @@
-import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
-
 const Contact = () => {
 	return (
 		<section id="contact" className="py-20 bg-white">
@@ -27,7 +22,7 @@ const Contact = () => {
 											stroke="currentColor"
 											className="w-6 h-6 text-datablue-600"
 										>
-											<title>X</title>
+											<title>Email</title>
 											<path
 												strokeLinecap="round"
 												strokeLinejoin="round"
@@ -51,7 +46,7 @@ const Contact = () => {
 											stroke="currentColor"
 											className="w-6 h-6 text-datateal-600"
 										>
-											<title>X</title>
+											<title>Phone</title>
 											<path
 												strokeLinecap="round"
 												strokeLinejoin="round"
@@ -75,7 +70,7 @@ const Contact = () => {
 											stroke="currentColor"
 											className="w-6 h-6 text-datagold-600"
 										>
-											<title>X</title>
+											<title>Location</title>
 											<path
 												strokeLinecap="round"
 												strokeLinejoin="round"
@@ -105,9 +100,16 @@ const Contact = () => {
 								name="contact"
 								method="POST"
 								data-netlify="true"
+								netlify-honeypot="bot-field"
 								className="bg-gray-50 p-6 rounded-lg border border-gray-200 shadow-sm"
 							>
 								<input type="hidden" name="form-name" value="contact" />
+								<p className="hidden">
+									<label>
+										Don't fill this out if you're human:{" "}
+										<input name="bot-field" />
+									</label>
+								</p>
 								<h3 className="text-2xl font-semibold mb-6">
 									Request a Consultation
 								</h3>
@@ -115,57 +117,79 @@ const Contact = () => {
 								<div className="space-y-4">
 									<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 										<div className="space-y-2">
-											<Label htmlFor="name">Full Name</Label>
-											<Input
-												id="name"
-												name="name"
-												type="text"
-												required
-												placeholder="John Smith"
-											/>
+											<label>
+												Full Name
+												<input
+													type="text"
+													id="name"
+													name="name"
+													required
+													placeholder="John Smith"
+												/>
+											</label>
 										</div>
 
 										<div className="space-y-2">
-											<Label htmlFor="email">Email</Label>
-											<Input
-												id="email"
-												name="email"
-												type="email"
-												required
-												placeholder="john@company.com"
-											/>
+											<label>
+												Email
+												<input
+													type="email"
+													id="email"
+													name="email"
+													required
+													placeholder="john@company.com"
+												/>
+											</label>
 										</div>
 									</div>
 
 									<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
 										<div className="space-y-2">
-											<Label htmlFor="company">Company</Label>
-											<Input
-												id="company"
-												name="company"
-												required
-												placeholder="Your Company"
-											/>
+											<label>
+												Company{" "}
+												<input
+													type="text"
+													id="company"
+													name="company"
+													required
+													placeholder="Your Company"
+												/>
+											</label>
+										</div>
+										<div className="space-y-2">
+											<label>
+												Phone (Optional){" "}
+												<input
+													type="tel"
+													id="phone"
+													name="phone"
+													placeholder="+1 (555) 123-4567"
+												/>
+											</label>
 										</div>
 									</div>
 
-									<div className="space-y-2">
-										<Label htmlFor="message">Message</Label>
-										<Textarea
-											id="message"
-											name="message"
-											required
-											placeholder="Tell us about your data challenges"
-											className="min-h-[120px]"
-										/>
+									<div className="space-y-2 min-h-[120px]">
+										<label>
+											Message{" "}
+											<input
+												type="text"
+												id="message"
+												name="message"
+												required
+												placeholder="Tell us about your data challenges"
+											/>
+										</label>
 									</div>
 
-									<Button
-										type="submit"
-										className="w-full bg-datablue-600 hover:bg-datablue-700"
-									>
-										Submit Request
-									</Button>
+									<div>
+										<button
+											type="submit"
+											className="w-full bg-datablue-600 hover:bg-datablue-700"
+										>
+											Send
+										</button>
+									</div>
 								</div>
 							</form>
 						</div>
