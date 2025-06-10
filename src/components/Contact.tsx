@@ -143,30 +143,17 @@ const Contact = () => {
 										</div>
 									</div>
 
-									<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-										<div className="space-y-2">
-											<label>
-												Company{" "}
-												<input
-													type="text"
-													id="company"
-													name="company"
-													required
-													placeholder="Your Company"
-												/>
-											</label>
-										</div>
-										<div className="space-y-2">
-											<label>
-												Phone (Optional){" "}
-												<input
-													type="tel"
-													id="phone"
-													name="phone"
-													placeholder="+1 (555) 123-4567"
-												/>
-											</label>
-										</div>
+									<div className="space-y-2">
+										<label>
+											Company{" "}
+											<input
+												type="text"
+												id="company"
+												name="company"
+												required
+												placeholder="Your Company"
+											/>
+										</label>
 									</div>
 
 									<div className="space-y-2 min-h-[120px]">
