@@ -1,3 +1,8 @@
+import { Button } from "@/components/ui/button";
+import { Input } from "@/components/ui/input";
+import { Label } from "@/components/ui/label";
+import { Textarea } from "@/components/ui/textarea";
+
 const Contact = () => {
 	return (
 		<section id="contact" className="py-20 bg-white">
@@ -116,66 +121,57 @@ const Contact = () => {
 
 								<div className="space-y-4">
 									<div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-										<div className="space-y-2">
-											<label>
-												Full Name
-												<input
-													type="text"
-													id="name"
-													name="name"
-													required
-													placeholder="John Smith"
-												/>
-											</label>
-										</div>
+  									<div className="space-y-2">
+     									<Label htmlFor="name">Full Name</Label>
+     									<Input
+       									id="name"
+       									name="name"
+       									type="text"
+       									required
+       									placeholder="John Smith"
+     									/>
+  									</div>
 
 										<div className="space-y-2">
-											<label>
-												Email
-												<input
-													type="email"
-													id="email"
-													name="email"
-													required
-													placeholder="john@company.com"
-												/>
-											</label>
+  										<Label htmlFor="email">Email</Label>
+											<Input
+												id="email"
+												name="email"
+												type="email"
+												required
+												placeholder="john@company.com"
+											/>
 										</div>
 									</div>
 
 									<div className="space-y-2">
-										<label>
-											Company{" "}
-											<input
-												type="text"
-												id="company"
-												name="company"
-												required
-												placeholder="Your Company"
-											/>
-										</label>
+  									<Label htmlFor="company">Company</Label>
+										<Input
+											id="company"
+											name="company"
+											required
+											placeholder="Your Company"
+										/>
 									</div>
 
 									<div className="space-y-2 min-h-[120px]">
-										<label>
-											Message{" "}
-											<input
-												type="text"
-												id="message"
-												name="message"
-												required
-												placeholder="Tell us about your data challenges"
-											/>
-										</label>
+  									<Label htmlFor="message">Message</Label>
+										<Textarea
+											id="message"
+											name="message"
+											required
+											placeholder="Tell us about your data challenges"
+											className="min-h-[120px]"
+										/>
 									</div>
 
 									<div>
-										<button
+  									<Button
 											type="submit"
 											className="w-full bg-datablue-600 hover:bg-datablue-700"
 										>
-											Send
-										</button>
+											Submit Request
+										</Button>
 									</div>
 								</div>
 							</form>
