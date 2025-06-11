@@ -71,51 +71,7 @@ const CaseStudiesData = [
 					"We enhanced and maintained risk management systems, built ML models utilizing alternative datasets, and evaluated new data science platforms for alpha generation.",
 				results:
 					"The client improved risk forecasting, adopted innovative data sources, and strengthened portfolio management.",
-			},
-			{
-				topic: "Model Review & Regulatory Stress Testing",
-				context:
-					"A global bank needed to ensure the integrity of its asset allocation, pricing, and risk models for regulatory compliance.",
-				challenge:
-					"Regulatory stress tests and model reviews demanded rigorous validation and improvement strategies.",
-				solution:
-					"We reviewed asset allocation, pricing, and risk models, assessed FVA methodologies, and outlined improvement strategies for bid-offer reserve models as part of EBA and BoE PRA Stress Tests.",
-				results:
-					"The bank achieved regulatory compliance and improved model robustness.",
-			},
-			{
-				topic: "Systematic Trading Strategy Design",
-				context:
-					"A systematic trading firm sought to expand across futures and crypto markets.",
-				challenge:
-					"The firm needed to design, implement, and manage mid-frequency and intraday strategies in diverse and illiquid markets.",
-				solution:
-					"We designed systematic trading strategies for CME, ICE, and EUREX futures, managed quantitative intraday strategies for Bitcoin derivatives, and researched execution algorithms for illiquid markets.",
-				results:
-					"The firm diversified its trading operations and improved execution in challenging markets.",
-			},
-			{
-				topic: "Macro Strategy Research & Platform Development",
-				context:
-					"A global macro hedge fund managed a $1.2bn portfolio across asset classes.",
-				challenge:
-					"The fund needed systematic macro strategies and a unified platform for research, trade, and risk management.",
-				solution:
-					"We led quant research for systematic macro strategies, collaborated with portfolio managers, and managed a team to build a firm-wide platform with web, mobile, and API access.",
-				results:
-					"The fund improved risk-adjusted returns and operational efficiency.",
-			},
-			{
-				topic: "Return Predictability & Ownership Structure Analysis",
-				context:
-					"Academic research teams sought to uncover drivers of return predictability and shareholder value.",
-				challenge:
-					"Understanding the impact of economic linkages and ownership structures on returns.",
-				solution:
-					"We modeled return patterns among economically linked companies, analyzed corporate ownership structures, and supported award-winning finance research.",
-				results:
-					"The research advanced academic understanding and influenced industry practices.",
-			},
+			}
 		],
 	},
 	{
