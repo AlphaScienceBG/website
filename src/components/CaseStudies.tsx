@@ -13,20 +13,20 @@ const CaseStudiesData = [
 				challenge:
 					"The client faced inefficiencies in data collection, model development, and portfolio rebalancing, resulting in missed opportunities and operational risk.",
 				solution:
-					"We developed a robust end-to-end quantitative trading platform leveraging Python and Dragster. The system automated data ingestion, feature engineering, predictive modeling, and daily portfolio rebalancing. A custom backtesting engine was built to account for trading fees, funding costs, slippage, and market risks.",
+					"We developed a robust end-to-end quantitative trading platform leveraging Python and Dagster. The system automated data ingestion, feature engineering, predictive modeling, and daily portfolio rebalancing. A custom backtesting engine was built to account for trading fees, funding costs, slippage, and market risks.",
 				results:
 					"The client rapidly deployed and evaluated new strategies, improved portfolio performance, and reduced operational risk.",
 			},
 			{
-				topic: "Crypto Exchange Data Engineering & Backtesting Suite",
+				topic: "Macro Strategy Research & Platform Development",
 				context:
-					"A quantitative trading desk required unified data pipelines and reliable backtesting tools to scale its research.",
+					"A global macro hedge fund managed a $1.2bn portfolio across asset classes.",
 				challenge:
-					"Fragmented exchange data and lack of accurate backtesting limited the team’s ability to iterate on trading strategies.",
+					"The fund needed systematic macro strategies and a unified platform for research, trade, and risk management.",
 				solution:
-					"We engineered ETL pipelines to aggregate and standardize data from multiple crypto exchanges and developed a tick-level backtesting platform for directional trading strategies.",
+					"We led quant research for systematic macro strategies, collaborated with portfolio managers, and managed a team to build a firm-wide platform with web, mobile, and API access.",
 				results:
-					"The trading desk accelerated research cycles, improved data quality, and validated strategies with greater confidence.",
+					"The fund improved risk-adjusted returns and operational efficiency.",
 			},
 			{
 				topic: "Equity Trading Strategy Research & Predictive Modeling",
@@ -49,17 +49,6 @@ const CaseStudiesData = [
 					"We built a Python-based ETL system for energy data collection and a Laravel web application for real-time price visualization, position tracking, and portfolio management.",
 				results:
 					"The client improved decision-making, operational efficiency, and risk oversight across diverse energy markets.",
-			},
-			{
-				topic: "Automated Trading Systems & Infrastructure",
-				context:
-					"A fintech firm needed to scale its automated trading operations across multiple digital asset exchanges.",
-				challenge:
-					"The client’s legacy systems limited trading throughput and reliability.",
-				solution:
-					"We engineered automated trading algorithms in Java, integrated with numerous exchange APIs, and contributed to a scalable microservices infrastructure.",
-				results:
-					"The firm increased trading throughput, improved reliability, and enabled seamless expansion to new markets.",
 			},
 			{
 				topic: "Multi-Asset Risk Management System Enhancement",
@@ -118,7 +107,7 @@ const CaseStudiesData = [
 				challenge:
 					"The client struggled to build robust analytics and needed privacy-preserving synthetic data for model development.",
 				solution:
-					"We led health metrics research, engineered a synthetic data generation tool, and translated user data insights into actionable product recommendations. Our team contributed to backend and mobile app development.",
+					"We led health metrics research, engineered a synthetic data generation tool, and translated user data insights into actionable product recommendations.",
 				results:
 					"The company launched new health scoring features, improved user engagement, and maintained compliance with privacy standards.",
 			},
