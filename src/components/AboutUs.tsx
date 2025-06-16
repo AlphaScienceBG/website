@@ -117,7 +117,7 @@ const AboutUs = () => {
 							<div className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Hristo Goumnerov</h2>
 								<h4 className="mb-4">
-									<b>Simulation Engineer and Data Engineer</b>
+									<b>Simulation Engineer and Data Scientist</b>
 								</h4>
 							</div>
 						</div>
@@ -128,31 +128,31 @@ const AboutUs = () => {
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Aerospace and Defense</p>
+									<p className="text-gray-700">Modelling and FEA / CFD analysis</p>
 								</li>
 								<li className="flex items-start">
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Materials Research</p>
+									<p className="text-gray-700">Data pre- and post-processing</p>
 								</li>
 								<li className="flex items-start">
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Nuclear Power Plant Safety</p>
+									<p className="text-gray-700">System administration</p>
 								</li>
 								<li className="flex items-start">
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Semiconductors</p>
+									<p className="text-gray-700">Quality control and monitoring</p>
 								</li>
 								<li className="flex items-start">
 									<div className="rounded-full bg-datateal-100 p-1 mr-3 mt-1">
 										<div className="rounded-full bg-datateal-500 w-2 h-2" />
 									</div>
-									<p className="text-gray-700">Financial Sector</p>
+									<p className="text-gray-700">Infrastructure development and maintenance</p>
 								</li>
 							</ul>
 						</div>
