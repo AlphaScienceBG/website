@@ -125,6 +125,23 @@ const CaseStudiesData = [
 		],
 	},
 	{
+		id: "ai",
+		title: "AI",
+		casestudies: [
+			{
+				topic: "AI-Powered Receipt Scanning and Data Management",
+				context:
+					"A client wanted to make expense tracking and data management more efficient by automating the extraction, categorization, and storage of receipt information from mobile photos.",
+				challenge:
+					"Manual entry of receipt data was time-consuming, error-prone, and inefficient. Receipts varied widely in format, quality, and layout, making automated extraction and categorization difficult.",
+				solution:
+					"We developed a mobile application using AI-powered computer vision to scan receipts via a phone camera. Advanced OCR and deep learning models extracted key information from diverse receipt formats, automatically categorized the data, and stored it in a centralized database.",
+				results:
+					"Eliminated manual data entry, achieved high accuracy in data extraction and categorization, and enabled seamless integration with expense management and analytics workflows.",
+			},
+		],
+	},
+	{
 		id: "engineering",
 		title: "Engineering",
 		casestudies: [
@@ -184,6 +201,7 @@ const CaseStudiesData = [
 			},
 		],
 	},
+
 ];
 
 const CaseStudies = () => {
@@ -213,11 +231,20 @@ const CaseStudies = () => {
 							<TabsTrigger value="engineering" className="text-lg px-6 py-3">
 								Engineering
 							</TabsTrigger>
+							<TabsTrigger value="ai" className="text-lg px-6 py-3">
+								AI
+							</TabsTrigger>
 						</TabsList>
 					</div>
 					{CaseStudiesData.map((category) => (
 						<TabsContent key={category.id} value={category.id}>
-							<div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+							<div
+								className={
+									category.id === "ai"
+										? "grid grid-cols-1 gap-8"             // Single column for "ai"
+										: "grid grid-cols-1 md:grid-cols-2 gap-8" // Default two columns on md and up
+								}
+							>
 								{category.casestudies.map((item, index) => (
 									<Card
 										key={index}
