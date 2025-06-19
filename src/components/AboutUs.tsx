@@ -69,7 +69,7 @@ const AboutUs = () => {
 							<div className="text-gray-700 text-lg">
 								<h2 className="text-2xl font-bold mb-1">Hristo Hristov</h2>
 								<h4 className="mb-4">
-									<b>Software Engineer and Data Analyst</b>
+									<b>Software Engineer and Data Scientist</b>
 								</h4>
 							</div>
 						</div>
